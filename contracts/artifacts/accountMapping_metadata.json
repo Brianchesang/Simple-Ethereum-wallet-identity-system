@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_Address",
+						"type": "address"
+					}
+				],
+				"name": "createNameAdressPair",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "entity",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address payable",
+						"name": "Address",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/walletToNameMapping.sol": "accountMapping"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/walletToNameMapping.sol": {
+			"keccak256": "0xa35741b7de4aade46e138006333eaead8f4b9862b26ad1fdb7e268eb1de791f9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5863ab6fd541ab9c62c37110d05f13521d14ebef834bb98c09e6b65febf9269a",
+				"dweb:/ipfs/QmRAzgPYrK34jhKEeCh3CbaFcw1b4ZELssR7Tf2SwpEofF"
+			]
+		}
+	},
+	"version": 1
+}
