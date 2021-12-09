@@ -46,6 +46,25 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "fetchAddressFromName",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -76,11 +95,11 @@
 	},
 	"sources": {
 		"contracts/walletToNameMapping.sol": {
-			"keccak256": "0xa35741b7de4aade46e138006333eaead8f4b9862b26ad1fdb7e268eb1de791f9",
+			"keccak256": "0x781fd1fa3ac37d53be15d64d48e6ca10f43dde8037110aad0c827539d9e7fd42",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5863ab6fd541ab9c62c37110d05f13521d14ebef834bb98c09e6b65febf9269a",
-				"dweb:/ipfs/QmRAzgPYrK34jhKEeCh3CbaFcw1b4ZELssR7Tf2SwpEofF"
+				"bzz-raw://3e5b927437f0ee2295d38ae40ac3741d920dd8effa49d591c7c8d0cd73a427dd",
+				"dweb:/ipfs/QmNwEe38obuto32zpwDtSnvzwETh3VWKsbb6Bm4ZWLC2xR"
 			]
 		}
 	},

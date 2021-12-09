@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.6.0;
+pragma solidity >=0.6.0 < 0.9.0;
 
 contract accountMapping{
     struct identity{
@@ -13,11 +13,17 @@ contract accountMapping{
 
     function createNameAdressPair(string memory _name , address payable _Address) public{
         entity.push(identity({name : _name , Address : _Address}));
+        nameToAddress[_name] = _Address;
         
 
     }
-
-    function addressFromName(address payable) public view returns(string name){
-
-    } 
+    
+    function fetchAddressFromName() public view returns(string,address payable){(
+       for  (uint 256 i = 0;  i<entity.length; i++) {
+            return entity.i[name];
+        }
+    }
+    
+   
 }
+ 
