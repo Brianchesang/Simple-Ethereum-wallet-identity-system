@@ -33,24 +33,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "address payable",
-						"name": "_Address",
-						"type": "address"
-					}
-				],
-				"name": "createNameAdressPair",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -138,11 +120,11 @@
 	},
 	"sources": {
 		"contracts/walletToNameMapping.sol": {
-			"keccak256": "0x6508dbe75393942b9b821cacd25e631a7aa5cda4ef99171dbcdb2bf59fe12c51",
+			"keccak256": "0x254313f369eb27c88d298923798e573ab3da0b542abf3a8284256c27539cd648",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c535a4fa3c3150bedc4a9cc71fb5866de819db6501436467e46329bde14adc7d",
-				"dweb:/ipfs/QmXtEa4EZbMW9JqVn55UTurGx669rvKUBVcNg2GdwEJ9fh"
+				"bzz-raw://33b03ba74808c3aced4e85ae7687a6787e31d2035736413dbb4c4c691046a528",
+				"dweb:/ipfs/QmWHNjHMkQh4bHaA4wDAKcwm674NdeGSzufqbaPqaM4aQ5"
 			]
 		}
 	},

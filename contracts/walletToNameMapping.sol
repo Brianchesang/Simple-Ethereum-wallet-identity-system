@@ -18,12 +18,7 @@ contract accountMapping{
         nameToAddress[_name]=_Address;
     } 
 
-    function createNameAdressPair(string memory _name , address payable _Address) public{
-        entity.push(identity({name : _name , Address : _Address}));
-        nameToAddress[_name] = _Address;
-        
-
-    }
+    
     
     function allPairs() public view returns(identity[] memory) {
         return entity;
