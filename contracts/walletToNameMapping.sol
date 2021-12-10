@@ -12,7 +12,7 @@ contract accountMapping{
 
     identity [] public entity ;
 
-    mapping(string =>address) nameToAddress;
+    mapping(string =>address payable) nameToAddress;
 
     function setName(string memory _name , address payable _Address) public{
         nameToAddress[_name]=_Address;
@@ -30,7 +30,7 @@ contract accountMapping{
 
     }
 
-    function fetchAddressFromName(string  memory _name) public returns(address payable){
+    function fetchAddressFromName(string  memory _name) public view returns(address payable){
         return nameToAddress[_name];
     
         
