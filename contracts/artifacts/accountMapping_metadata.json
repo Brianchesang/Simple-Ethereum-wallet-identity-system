@@ -1,10 +1,35 @@
 {
 	"compiler": {
-		"version": "0.6.12+commit.27d51765"
+		"version": "0.8.10+commit.fc410830"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"inputs": [],
+				"name": "allPairs",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "address payable",
+								"name": "Address",
+								"type": "address"
+							}
+						],
+						"internalType": "struct accountMapping.identity[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
 			{
 				"inputs": [
 					{
@@ -63,7 +88,7 @@
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -82,7 +107,7 @@
 		"compilationTarget": {
 			"contracts/walletToNameMapping.sol": "accountMapping"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -95,11 +120,11 @@
 	},
 	"sources": {
 		"contracts/walletToNameMapping.sol": {
-			"keccak256": "0x781fd1fa3ac37d53be15d64d48e6ca10f43dde8037110aad0c827539d9e7fd42",
+			"keccak256": "0x27e3f67b74607392a906d323c80e89514e40ae7741ba27bc265b91356ae1a283",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3e5b927437f0ee2295d38ae40ac3741d920dd8effa49d591c7c8d0cd73a427dd",
-				"dweb:/ipfs/QmNwEe38obuto32zpwDtSnvzwETh3VWKsbb6Bm4ZWLC2xR"
+				"bzz-raw://7c58d2df8b286679c5e7ec729d321b3e97f94bf6eb6d9bf01e6a1debf9dc9441",
+				"dweb:/ipfs/QmPTzSgkafe2UbpV2rAs4oqPp7edsWfe4xWksHGoeSC9cE"
 			]
 		}
 	},
